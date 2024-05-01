@@ -78,14 +78,13 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'planpeak01',          # 데이터베이스 이름
-        'USER': 'planpeak_user01', # 데이터베이스 사용자 이름
-        'PASSWORD': '9985533',  # 데이터베이스 암호
-        'HOST': 'localhost',          # 데이터베이스 호스트 (일반적으로 로컬 호스트)
-        'PORT': '5432',               # 데이터베이스 포트 (일반적으로 5432)
+        'NAME': 'mydatabase',
+        'USER': 'myuser',
+        'PASSWORD': 'mypassword',
+        'HOST': 'db',
+        'PORT': '5432',
     }
 }
-
 
 
 # Password validation
